@@ -13,7 +13,8 @@
     ci = commit
     co = checkout
     st = status
-
+[push]
+	default = simple
 [core]
 	editor = /usr/bin/vim
 	excludesfile = ~/.gitInfo/gitignore_global
