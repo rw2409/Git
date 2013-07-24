@@ -1,0 +1,21 @@
+[user]
+	name = Ryan Wang
+	email = ryanwang0531@gmail.com
+[credential]
+	helper = osxkeychain
+[color]
+	ui = true
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master
+[alias]
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    ci = commit
+    co = checkout
+    st = status
+
+[core]
+	editor = /usr/bin/vim
+	excludesfile = ~/.gitInfo/gitignore_global
+[commit]
+	template = ~/.gitInfo/gitmessage.txt
