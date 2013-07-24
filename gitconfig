@@ -14,7 +14,7 @@
     co = checkout
     st = status
 [push]
-	default = simple
+	default = current 
 [core]
 	editor = /usr/bin/vim
 	excludesfile = ~/.gitInfo/gitignore_global
